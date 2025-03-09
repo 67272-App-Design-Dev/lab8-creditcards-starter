@@ -37,10 +37,10 @@
 # CreditCard.new(4123456789012, 2004, 12).valid?  # a VISA card expired long, long ago
 # => false
 #
-# Super Bonus Time: add an additional method to the class which returns the credit card's
-# name (the 2-4 letter abbreviation is what we are looking for here).  If you still have time 
-# in lab, this must be completed; only optional if you are struggling for time to get the 
-# first part done. (Hint: .detect [part of Enumerable] could be helpful in this regard)
+# Be sure to add an additional method/property to the class which returns the credit card's
+# name (the 2-4 letter abbreviation is what we are looking for here).  
+# Hint: .detect [part of Enumerable] could be helpful in this regard and worth looking
+# up at https://apidock.com/ruby
 #
 # _____________________________________
 # SOLUTION TIME:
