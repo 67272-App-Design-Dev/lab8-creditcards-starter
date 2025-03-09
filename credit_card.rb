@@ -40,7 +40,7 @@
 # Super Bonus Time: add an additional method to the class which returns the credit card's
 # name (the 2-4 letter abbreviation is what we are looking for here).  If you still have time 
 # in lab, this must be completed; only optional if you are struggling for time to get the 
-# first part done.
+# first part done. (Hint: .detect [part of Enumerable] could be helpful in this regard)
 #
 # _____________________________________
 # SOLUTION TIME:
@@ -54,5 +54,23 @@
   require './credit_card_type'
 
 # Now your solution goes here...
+class CreditCard
 
+  VALID_TYPES = [
+    # use your CreditCardType class to create objects here with the appropriate regex
+  ]
+
+  # attr_readers go here...
+
+  # constructor...
+  def initialize(number, expiration_year, expiration_month)
+  end
+
+  # other key methods
+  def expired?
+  end
+
+  def valid?
+  end
+end
 
