@@ -58,12 +58,13 @@ class CreditCard
 
   VALID_TYPES = [
     # use your CreditCardType class to create objects here with the appropriate regex
+    
   ]
 
   # attr_readers go here...
 
   # constructor... (add in the appropriate arguments; see tests for clues on what is required
-  def initialize()
+  def initialize(  )
   end
 
   # other key methods
