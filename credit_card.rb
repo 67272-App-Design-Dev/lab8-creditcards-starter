@@ -28,10 +28,10 @@
 # 
 # Examples:  (...just 3 of the 30 we will test)
 # 
-# CreditCard.new(4123456789012, 2016, 12).valid?   # a valid VISA card
+# CreditCard.new(4123456789012, 2026, 12).valid?   # a valid VISA card
 # => true
 # 
-# CreditCard.new(41234567890123456789, 2016, 12).valid?   # VISA with too many digits
+# CreditCard.new(41234567890123456789, 2026, 12).valid?   # VISA with too many digits
 # => false
 # 
 # CreditCard.new(4123456789012, 2004, 12).valid?  # a VISA card expired long, long ago
