@@ -4,6 +4,7 @@ require './credit_card'
 require './credit_cards_context'
 # use minitest (my fav test library)
 require "minitest/autorun"
+require "logger"
 
 class TestCreditCards < Minitest::Test
   
