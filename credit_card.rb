@@ -72,6 +72,7 @@ class CreditCard
   end
 
   def valid?
+    # to be valid, a card must not be expired and must be a legit type of card
   end
 end
 
